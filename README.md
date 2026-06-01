@@ -54,7 +54,7 @@ https://github.com/SACHIN197-creator/Netflix-Homepage-Clone
 
 ### ❓ FAQ Section
 
-![FAQ](images/fAQ.png)
+![FAQ](images/FAQ.png)
 
 ---
 
@@ -140,14 +140,3 @@ GitHub: https://github.com/SACHIN197-creator
 
 ---
 
-## ⭐ Support
-
-If you found this project useful, consider giving it a **Star ⭐** on GitHub.
-
----
-
-## 📜 Disclaimer
-
-This project is created solely for educational and portfolio purposes.
-
-Netflix is a registered trademark of Netflix, Inc. This clone is not affiliated with, endorsed by, or sponsored by Netflix.
