@@ -84,9 +84,9 @@ Netflix-Homepage-Clone/
 │   └── app.js
 │
 ├── images/
-│   ├── homepage.png
+│   ├── home1.png
 │   ├── trending.png
-│   ├── faq.png
+│   ├── fAQ.png
 │
 └── README.md
 ```
@@ -118,17 +118,6 @@ This project helped me strengthen my understanding of:
 * JavaScript DOM Manipulation
 * Git & GitHub Workflow
 * GitHub Pages Deployment
-
----
-
-## 📈 Future Improvements
-
-* Netflix-style Video Background
-* Authentication UI
-* Movie Search Functionality
-* API Integration
-* React Version
-* Dark/Light Theme Toggle
 
 ---
 
