@@ -139,7 +139,8 @@ This project helped me strengthen my understanding of:
 ### LinkedIn
 [LinkedIn Profile](https://www.linkedin.com/in/sachin-kumar-362b53343/)
 
-GitHub: https://github.com/SACHIN197-creator
+### GitHub
+[Github Profile](https://github.com/SACHIN197-creator)
 
 ---
 
