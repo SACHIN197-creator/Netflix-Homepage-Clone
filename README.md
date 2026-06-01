@@ -46,7 +46,7 @@ https://github.com/SACHIN197-creator/Netflix-Homepage-Clone
 
 ### 🏠 Homepage
 
-![Homepage](images/homepage.png)
+![Homepage](images/home1.png)
 
 ### 🎥 Trending Section
 
@@ -54,7 +54,7 @@ https://github.com/SACHIN197-creator/Netflix-Homepage-Clone
 
 ### ❓ FAQ Section
 
-![FAQ](images/faq.png)
+![FAQ](images/fAQ.png)
 
 ---
 
@@ -94,12 +94,6 @@ Netflix-Homepage-Clone/
 ---
 
 ## 🚀 Getting Started
-
-### Clone Repository
-
-```bash
-git clone https://github.com/SACHIN197-creator/Netflix-Homepage-Clone.git
-```
 
 ### Open Project
 
