@@ -1,0 +1,378 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#000;
+    color:#fff;
+    font-family:'Segoe UI',sans-serif;
+    overflow-x:hidden;
+}
+
+a{
+    text-decoration:none;
+}
+
+/* ==========================
+   NAVBAR
+========================== */
+
+.navbar{
+    background:transparent;
+    z-index:999;
+}
+
+.logo{
+    color:#e50914;
+    font-size:2.5rem;
+    font-weight:900;
+    letter-spacing:1px;
+}
+
+.btn-danger{
+    background:#e50914;
+    border:none;
+}
+
+.btn-danger:hover{
+    background:#c11119;
+}
+
+/* ==========================
+   HERO SECTION
+========================== */
+
+.hero-section{
+    position:relative;
+    height:100vh;
+
+    background:
+    linear-gradient(
+    rgba(0,0,0,.75),
+    rgba(0,0,0,.75)
+    ),
+    url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1920");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero-overlay{
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+
+.hero-content{
+    position:relative;
+    z-index:2;
+    max-width:900px;
+}
+
+.hero-content h1{
+    font-size:4.5rem;
+    font-weight:900;
+    line-height:1.1;
+}
+
+.hero-content h3{
+    margin-top:20px;
+    font-size:1.8rem;
+    font-weight:500;
+}
+
+.hero-content p{
+    margin-top:25px;
+    font-size:1.2rem;
+}
+
+/* ==========================
+   EMAIL FORM
+========================== */
+
+.email-form{
+    margin-top:25px;
+
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    flex-wrap:wrap;
+}
+
+.email-form input{
+    width:400px;
+    padding:16px;
+
+    background:rgba(0,0,0,.5);
+    border:1px solid #777;
+    border-radius:5px;
+
+    color:white;
+    font-size:1rem;
+}
+
+.email-form button{
+    background:#e50914;
+    color:white;
+
+    border:none;
+
+    padding:16px 30px;
+
+    font-size:1.2rem;
+    font-weight:600;
+
+    border-radius:5px;
+
+    transition:.3s;
+}
+
+.email-form button:hover{
+    background:#c11119;
+}
+
+/* ==========================
+   CURVE DIVIDER
+========================== */
+
+.curve-divider{
+    height:8px;
+    background:linear-gradient(
+    to right,
+    #e50914,
+    #b81d24
+    );
+}
+
+/* ==========================
+   SECTION TITLE
+========================== */
+
+.section-title{
+    font-size:2rem;
+    font-weight:700;
+    margin-bottom:30px;
+}
+
+/* ==========================
+   TRENDING
+========================== */
+
+.trending-section{
+    padding:80px 0;
+}
+
+.movie-row{
+    display:flex;
+    gap:20px;
+    overflow-x:auto;
+
+    scrollbar-width:none;
+}
+
+.movie-row::-webkit-scrollbar{
+    display:none;
+}
+
+.movie-card{
+    min-width:220px;
+    transition:.4s;
+}
+
+.movie-card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.movie-card:hover{
+    transform:scale(1.08);
+}
+
+/* ==========================
+   FEATURES
+========================== */
+
+.feature-section{
+    padding:100px 0;
+    border-top:8px solid #222;
+}
+
+.feature-section h2{
+    font-size:3rem;
+    font-weight:800;
+    margin-bottom:20px;
+}
+
+.feature-section p{
+    font-size:1.4rem;
+    color:#ddd;
+}
+
+.feature-section img{
+    width:100%;
+    border-radius:12px;
+
+    transition:.4s;
+}
+
+.feature-section img:hover{
+    transform:scale(1.03);
+}
+
+/* ==========================
+   FAQ
+========================== */
+
+.faq-section{
+    padding:100px 0;
+    border-top:8px solid #222;
+}
+
+.faq-title{
+    text-align:center;
+    font-size:3rem;
+    font-weight:800;
+    margin-bottom:50px;
+}
+
+.accordion-item{
+    border:none;
+    margin-bottom:10px;
+}
+
+.accordion-button{
+    background:#2d2d2d !important;
+    color:white !important;
+
+    font-size:1.4rem;
+    padding:25px;
+}
+
+.accordion-button:hover{
+    background:#414141 !important;
+}
+
+.accordion-button:not(.collapsed){
+    background:#414141 !important;
+    color:white !important;
+}
+
+.accordion-body{
+    background:#2d2d2d;
+    color:white;
+    font-size:1.2rem;
+}
+
+.accordion-button:focus{
+    box-shadow:none;
+}
+
+/* ==========================
+   FOOTER
+========================== */
+
+.footer{
+    padding:80px 0;
+    border-top:8px solid #222;
+    color:#aaa;
+}
+
+.footer-links{
+    margin-top:30px;
+
+    display:grid;
+    grid-template-columns:
+    repeat(auto-fit,minmax(200px,1fr));
+
+    gap:15px;
+}
+
+.footer-links a{
+    color:#aaa;
+}
+
+.footer-links a:hover{
+    color:white;
+}
+
+.copyright{
+    margin-top:40px;
+    color:#777;
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media(max-width:992px){
+
+    .hero-content h1{
+        font-size:3.5rem;
+    }
+
+    .feature-section h2{
+        font-size:2.3rem;
+    }
+
+    .feature-section p{
+        font-size:1.1rem;
+    }
+}
+
+@media(max-width:768px){
+
+    .logo{
+        font-size:1.8rem;
+    }
+
+    .hero-content h1{
+        font-size:2.5rem;
+    }
+
+    .hero-content h3{
+        font-size:1.3rem;
+    }
+
+    .hero-content p{
+        font-size:1rem;
+    }
+
+    .email-form{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .email-form input{
+        width:100%;
+        max-width:400px;
+    }
+
+    .email-form button{
+        width:100%;
+        max-width:400px;
+    }
+
+    .faq-title{
+        font-size:2rem;
+    }
+
+    .accordion-button{
+        font-size:1rem;
+    }
+
+    .feature-section{
+        text-align:center;
+    }
+}
