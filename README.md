@@ -14,7 +14,7 @@ A premium Netflix-inspired homepage clone built using **HTML5, CSS3, JavaScript 
 
 🔗 **Live Website**
 
-https://sachin197-creator.github.io/Netflix-Homepage-Clone/
+[Live Linkhttps](//sachin197-creator.github.io/Netflix-Homepage-Clone/)
 
 ---
 
@@ -117,7 +117,7 @@ This project helped me strengthen my understanding of:
 * CSS Flexbox & Layouts
 * JavaScript DOM Manipulation
 * Git & GitHub Workflow
-* GitHub Pages Deployment
+* Netlify Deployment
 
 ---
 
