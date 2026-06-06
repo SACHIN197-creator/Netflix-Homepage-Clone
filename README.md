@@ -14,7 +14,7 @@ A premium Netflix-inspired homepage clone built using **HTML5, CSS3, JavaScript 
 
 🔗 **Live Website**
 
-[Live Linkhttps](//sachin197-creator.github.io/Netflix-Homepage-Clone/)
+[Live Link](https://sachin197-creator.github.io/Netflix-Homepage-Clone/)
 
 ---
 
